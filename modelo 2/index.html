@@ -14,21 +14,60 @@
 
     <style>
         body{
-            background:linear-gradient(to top right,rgba(139, 131, 54, 0.801), antiquewhite,rgba(0, 60, 138, 0.589)) ;
+            background-color: ivory;
+            background-image: url('bg-body.jpg');
+            background-repeat: repeat;
+            background-color: black;
+            margin: 0;
+            padding: 0;
         }
-        h1{
+        
+        h1, h2{
             font-family: 'Josefin Sans', sans-serif;
             text-transform: none;
-            margin-top: 4%;
+            margin: 0 auto;
+            text-align: center;
+            color: #00ccff;
+            text-shadow: 1px 1px 3px rgb(58, 58, 58);
+            padding-top: 3%;
+            background-color: rgba(250, 235, 215, 0.9);    
+            width: unset;   
+        }
+        h1{
+            font-size: 2em;
+        }
+        h2{
+            font-size: 1.8em;              
+        }
+        article{
+            padding-bottom: 3%;
+        }
+        p{
+            font-family: 'Josefin Sans', sans-serif;
+            background-color: rgb(0, 204, 255, 0.6);
+            color: antiquewhite;
+            text-shadow: 1px 1px 5px black;
+            padding: 3% 8% 0 8%  ;
+            text-align: justify;
+            margin: 0 auto;
+            font-size: 1.1em;   
+        }
+        #div article img{
+            float: left;
+            margin:  3% 0 0 0;
+            position: static;
+        }
+        #div2 article img{
+            float: right;
+            margin: 3% 0 0 0;
+            position: static;
         }
         #icon{
-            border-radius: 50%;
-            
-            width: 15vmin;
+            width: 18vmin;
+            padding: 3%;
         }
-        main{
-            background-image: url('high-angle-photography-of-seashore-1705254.jpg');
-            height: 800px;
+        #icon:hover{
+            box-shadow: 0 0  3px 1px #00ccff;
             
         }
         ul{
@@ -36,42 +75,86 @@
         }
         .navbar{
             border-radius: 0 0 10px 10px;
-            height: auto;
+            width: 100%;
         }
-        footer{
-            height: 100px;
+        #social a img{
+            margin: 2% 2% 20% 1% ;    
+            width: 100%;
+            float: left;
+            clear: both;  
+            opacity: 0.7;   
         }
-        
+        #social{
+            position: fixed;     
+            left: 1%;
+            width: 6%;
+        }
+        footer p{
+            float: left;
+            clear: right;
+            background-color: rgba(0, 0, 0, 0.521);
+            margin-top: 0 auto;
+            text-align: center;
+            padding: 1%;
+        }
+
     </style>
 </head>
 <body>
     <main class="container">
-        <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
-            <a href="#"><img src="icon2.png" alt="" id="icon"></a>
-            <span style="color: #00ccff ; margin-left: 1%;">Viagens e turismo</span> 
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md ">
+            <a href="#"><img src="icon4.png" alt="" id="icon"></a>
 
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu1" aria-controls="menu1" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             
 
-            <div class="collapse navbar-collapse" id="menu1">
+            <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active"><a href="#" class="nav-link ">Lugares</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link ">Pacotes</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Hoteis</a></li>
+                    <li class="nav-item"><a href="#div" class="nav-link ">Pacotes</a></li>
+                    <li class="nav-item"><a href="#div2" class="nav-link">Hoteis</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Milhas</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Companhias aereas</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Viagens</a></li> 
+                    <li class="nav-item"><a href="#" class="nav-link">Companias aéreas</a></li>
+                    <li class="nav-item"><a href="#footer" class="nav-link">Contato</a></li> 
                 </ul>
             </div>
         </nav>
+        <div id="social" class="">
+            <a href="#div"><img src="facebook.png" alt=""></a>
+            <a href="#div2"><img src="wapp.png" alt=""></a>
+            <a href="#"><img src="youtube.png" alt=""></a>
+            <a href="#"><img src="twitter.png" alt=""></a>
+        </div>
+        <div id="div">
+            <article>
+                <img src="footer.jpg" alt="" class="col-md-6">
+                <h1 >Promoções</h1>
+                <p> texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo     
+                </p>
+            </article>
+        </div>     
+        <div id="div2">
+            <article>
+                <img src="footer.jpg" alt="" class="col-md-6">
+                <h2>Pra onde quiser</h2>  
+                <p> texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo       
+                </p>  
+            </article>
+        </div>           
+    </main>    
+    <footer id="footer" class="container-fluid">
+        <p class="col-md-6">
+            Rua Rio Brigida - 514 <br>
+            Proximo ao terminal
+        </p>
+        <p class="col-md-6">
+            Rua Rio Brigida - 514 <br>
+            Proximo ao terminal
+        </p>
         
-
-    </main>
-    <footer class="container">
-
     </footer>
 </body>
 </html>
