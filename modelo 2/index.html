@@ -14,7 +14,6 @@
 
     <style>
         body{
-            background-color: ivory;
             background-image: url('bg-body.jpg');
             background-repeat: repeat;
             background-color: black;
@@ -41,8 +40,9 @@
         }
         article{
             padding-bottom: 3%;
+            
         }
-        p{
+        article p{
             font-family: 'Josefin Sans', sans-serif;
             background-color: rgb(0, 204, 255, 0.6);
             color: antiquewhite;
@@ -51,6 +51,7 @@
             text-align: justify;
             margin: 0 auto;
             font-size: 1.1em;   
+            border-radius:0 0 10px 10px;
         }
         #div article img{
             float: left;
@@ -68,41 +69,55 @@
         }
         #icon:hover{
             box-shadow: 0 0  3px 1px #00ccff;
-            
+            border-radius: 10px;
         }
         ul{
             margin: 0 auto;
         }
         .navbar{
-            border-radius: 0 0 10px 10px;
+           
             width: 100%;
+            background: linear-gradient(to right, black,rgba(78, 59, 10, 0.9), rgba(78, 59, 10, 0.9),black);
+            
         }
         #social a img{
-            margin: 2% 2% 20% 1% ;    
+            margin: 2% 2% 2% 1% ;    
             width: 100%;
             float: left;
             clear: both;  
             opacity: 0.7;   
         }
+        #social a{
+            text-align: center;
+            color: blanchedalmond;
+            margin: 0 0 30% 0;
+        }
         #social{
             position: fixed;     
-            left: 1%;
-            width: 6%;
+            left: 2.5%;
+            width: 6%; 
         }
         footer p{
             float: left;
-            clear: right;
-            background-color: rgba(0, 0, 0, 0.521);
-            margin-top: 0 auto;
             text-align: center;
+            margin-top:1px;
+            color: moccasin;
             padding: 1%;
+            text-shadow: 1px 1px 10px white;
         }
+        footer{
+            background-color: rgba(0, 0, 0, 0.5);
+            height: auto;
+            position: absolute;
+        }
+        
+        
 
     </style>
 </head>
 <body>
     <main class="container">
-        <nav class="navbar navbar-dark bg-dark navbar-expand-md ">
+        <nav class="navbar navbar-dark navbar-expand-md ">
             <a href="#"><img src="icon4.png" alt="" id="icon"></a>
 
 
@@ -112,8 +127,8 @@
             
 
             <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a href="#" class="nav-link ">Lugares</a></li>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link ">Lugares</a></li>
                     <li class="nav-item"><a href="#div" class="nav-link ">Pacotes</a></li>
                     <li class="nav-item"><a href="#div2" class="nav-link">Hoteis</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Milhas</a></li>
@@ -124,7 +139,7 @@
         </nav>
         <div id="social" class="">
             <a href="#div"><img src="facebook.png" alt=""></a>
-            <a href="#div2"><img src="wapp.png" alt=""></a>
+            <a href="#div2"><img src="wapp.png" alt=""> </a>
             <a href="#"><img src="youtube.png" alt=""></a>
             <a href="#"><img src="twitter.png" alt=""></a>
         </div>
@@ -132,7 +147,7 @@
             <article>
                 <img src="footer.jpg" alt="" class="col-md-6">
                 <h1 >Promoções</h1>
-                <p> texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo     
+                <p> texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo
                 </p>
             </article>
         </div>     
@@ -140,7 +155,7 @@
             <article>
                 <img src="footer.jpg" alt="" class="col-md-6">
                 <h2>Pra onde quiser</h2>  
-                <p> texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo       
+                <p> texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo texto do artigo 
                 </p>  
             </article>
         </div>           
@@ -148,11 +163,21 @@
     <footer id="footer" class="container-fluid">
         <p class="col-md-6">
             Rua Rio Brigida - 514 <br>
-            Proximo ao terminal
+            Proximo ao terminal <br>
+            Rua Rio Brigida - 514 <br>
+            Proximo ao terminal <br>
+            Rua Rio Brigida - 514 <br>
+            Proximo ao terminal <br>            
         </p>
         <p class="col-md-6">
-            Rua Rio Brigida - 514 <br>
-            Proximo ao terminal
+            Rua Rio Brigida - 514 
+            Proximo ao terminal <br>
+            Rua Rio Brigida - 514 
+            Proximo ao terminal <br>
+            Rua Rio Brigida - 514 
+            Proximo ao terminal <br>
+            Rua Rio Brigida - 514
+            Proximo ao terminal <br>
         </p>
         
     </footer>
